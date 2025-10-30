@@ -1,344 +1,39 @@
-<!doctype html>
-<html lang="id">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Dyvillexz — To The One Who Left It All Behind</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --bg: #0d1117;
-      --card: #161b22;
-      --accent: #9ca3af;
-      --text: #e6eef6;
-      --muted: #a1a1aa;
-    }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      background: var(--bg);
-      font-family: 'Poppins', sans-serif;
-      color: var(--text);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-      min-height: 100vh;
-      padding: 20px;
-    }
-    header {
-      text-align: center;
-      margin-top: 30px;
-      animation: fadeIn 1s ease forwards;
-    }
-    header video {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      border: 3px solid var(--accent);
-      margin-bottom: 10px;
-      object-fit: cover;
-    }
-    header h1 {
-      font-size: 22px;
-      font-weight: 700;
-    }
-    header p {
-      color: var(--muted);
-      font-size: 14px;
-      margin-top: 4px;
-      letter-spacing: 1px;
-    }
-    .buttons {
-      display: flex;
-      gap: 10px;
-      margin-top: 20px;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-    .btn {
-      padding: 12px 30px;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      font-weight: 600;
-      color: white;
-      background: #2d2f34;
-      transition: all .3s;
-    }
-    .btn:hover { background: #3f3f46; transform: translateY(-2px); }
+<div align="center">
+    <a href="https://www.youtube.com/@Dyvillexz">
+        <img src="https://readme-typing-svg.herokuapp.com?font=ShadowsIntoLightsize=50&duration=5500&color=f70787&background=FF673200&center=true&vCenter=true&lines=Hello,+I+am+Nazedev;Welcome+to+my+GitHub+😊" alt="Typing SVG" />
+    </a>
+</div>
 
-    .login-box {
-      background: var(--card);
-      width: 100%;
-      max-width: 400px;
-      margin-top: 40px;
-      border-radius: 12px;
-      padding: 25px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
-      animation: fadeUp 1s ease forwards;
-    }
-    .login-box h2 { text-align: center; margin-bottom: 20px; color: var(--accent); }
-    label {
-      display: block;
-      font-size: 13px;
-      color: var(--muted);
-      margin-bottom: 6px;
-    }
-    input[type="text"], input[type="password"] {
-      width: 100%;
-      padding: 12px;
-      border-radius: 8px;
-      border: 1px solid #30363d;
-      background: #0d1117;
-      color: white;
-      margin-bottom: 14px;
-      font-size: 14px;
-    }
-    button.login {
-      width: 100%;
-      background: var(--accent);
-      border: none;
-      color: black;
-      font-weight: 700;
-      padding: 12px;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: 0.2s;
-    }
-    button.login:hover { opacity: .9; background: #d1d5db; }
+<div align="center">
+    <a href="https://naze.biz.id">
+        <img src="https://img.shields.io/badge/Naze%20Api-ff5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website Badge" />
+    </a>
+</div>
 
-    .extra-links {
-      display: flex;
-      justify-content: space-between;
-      font-size: 13px;
-      color: var(--muted);
-      margin-top: 10px;
-    }
-    .extra-links a { color: var(--accent); text-decoration: none; cursor: pointer }
+### Current activities 
+- 👨‍💻 I am Not a Programmer
+- 🌱 I am currently learning JavaScript
+- 🎯 Play Genshin Impact With Me? ID 90616003858
+- 📧 My Business Email voidxcode666@gmail.com
+- 💰 Donate For Me [Saweria](https://saweria) 
 
-    /* Loading Screen */
-    #loading {
-      position: fixed;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      background: rgba(13,17,23,0.95);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      color: var(--text);
-      font-size: 18px;
-      z-index: 9999;
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity .5s;
-    }
-    #loading.active {
-      opacity: 1;
-      pointer-events: all;
-    }
-    .loader {
-      border: 4px solid #2d2f34;
-      border-top: 4px solid var(--accent);
-      border-radius: 50%;
-      width: 40px;
-      height: 40px;
-      animation: spin 1s linear infinite;
-      margin-bottom: 15px;
-    }
 
-    /* Video Fullscreen Loading */
-    #loading video {
-      position: fixed;
-      top: 0; left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      z-index: 9999;
-    }
+### Connect with me ☎️
+<h4 align="center">Visitor's Count :</h4>
+<p align="center"><img src="https://count.getloli.com/get/@nazedev-github-readme?theme=rule34" /></p>
+<p align="center">
+  <a href="https://instagram.com/naze_dev"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/> 
+  <a href="https://wa.me/message/NWL4BNB6JPN3H1"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  <a href="https://t.me/nazedev"><img src="https://img.shields.io/badge/Telegram-%230088cc.svg?&style=for-the-badge&logo=telegram&logoColor=white" /> <br>
+  <a href="https://youtube.com/c/Nazedev"><img src="https://img.shields.io/badge/YouTube-Naze -ff0000?style=for-the-badge&logo=youtube&logoColor=ff0000&link=https://youtube.com/@Nazedev" /><br>
+  <a href="https://github.com/nazedev"><img src="https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github" /> 
+  <a href="https://youtube.com/channel/UCl77jQD3nSFp__z1oRxm-fA"><img src="https://img.shields.io/youtube/channel/subscribers/UCl77jQD3nSFp__z1oRxm-fA?style=social" /> <br>
+  <a name=nazedev&label=VIEWS&style=flat-square&color=orange" />
+</p>
 
-    #loading p {
-      position: absolute;
-      bottom: 50px;
-      font-size: 18px;
-      color: white;
-      z-index: 10000;
-    }
+### Github Stats 🚀
 
-    @keyframes fadeIn { from { opacity: 0; transform: scale(0.9); } to { opacity: 1; transform: scale(1); } }
-    @keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
-    @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+<p align="center"><a href="https://github.com/nazedev"><img src="https://github-readme-stats.vercel.app/api?username=nazedev&show_icons=true&theme=chartreuse-dark"></a></p>
+<p align="center"><a href="https://github.com/nazedev"><img src="https://streak-stats.demolab.com/?user=nasedev&theme=chartreuse-dark"></a></p>
+<p align="center"><a href="https://github.com/nazedev"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nazedev&theme=chartreuse-dark&layout=compact"></a></p> 
 
-    /* TikTok Section (keadaan default disembunyikan) */
-    #tiktokSection {
-      display: none;
-      width: 100%;
-      max-width: 900px;
-      margin-top: 40px;
-      animation: fadeUp 1s ease forwards;
-    }
-    .card{background:rgba(255,255,255,0.05);padding:14px;border-radius:12px;box-shadow:0 6px 20px rgba(0,0,0,0.6)}
-    .controls{display:grid;grid-template-columns:1fr 160px;gap:10px;align-items:center}
-    input[type=text].tiktok{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.08);background:#111;color:#eee}
-    .tiktok-btn{padding:10px 12px;border-radius:8px;border:0;background:var(--accent);color:#fff;font-weight:600;cursor:pointer}
-    .video{background:#000;padding:8px;border-radius:10px;margin-top:14px;text-align:center}
-    iframe{width:100%;aspect-ratio:9/16;border-radius:8px;background:#000}
-    .footer{margin-top:14px;color:var(--muted);font-size:13px;text-align:center}
-  </style>
-</head>
-<body>
-  <!-- Musik otomatis halaman awal -->
-  <audio id="bg-music" autoplay loop>
-    <source src="https://c.termai.cc/a36/nU9EEY.mp3" type="audio/mpeg">
-  </audio>
-  <script>
-    document.addEventListener('click', function() {
-      const audio = document.getElementById('bg-music');
-      if (audio.paused) audio.play();
-    });
-  </script>
-
-  <header>
-    <video src="https://c.termai.cc/v85/ZW5Xo8.mp4" autoplay loop muted playsinline></video>
-    <h1>Dyvillexz</h1>
-    <p>TO THE ONE WHO LEFT IT ALL BEHIND</p>
-  </header>
-
-  <div class="buttons">
-    <button class="btn" id="devBtn">Developer</button>
-    <button class="btn" id="waBtn">WhatsApp</button>
-    <button class="btn" id="otherBtn">Lainnya_</button>
-  </div>
-
-  <div class="login-box" id="loginBox">
-    <h2>Login</h2>
-    <form id="loginForm">
-      <label for="username">Nama Pengguna / Email</label>
-      <input type="text" id="username" placeholder="Masukan Email/telepon">
-      <label for="password">Kata Sandi</label>
-      <input type="password" id="password" placeholder="••••••••••••">
-      <button class="login" type="submit">Masuk</button>
-    </form>
-    <div class="extra-links">
-      <a id="contactOwner">hub Owner untuk Mendapatkan Login</a>
-      <a>🔵🟡🔴 Dyvillexz</a>
-    </div>
-  </div>
-
-  <!-- Loading Screen dengan Video & Audio kedua -->
-  <div id="loading">
-    <video id="loadingVideo" src="https://cdn.yupra.my.id/yp/bpgh04hb.mp4" autoplay muted playsinline></video>
-    <audio id="loadingAudio" autoplay loop></audio>
-    <p>Initializing Dyvillexz System... Please wait 🔥</p>
-  </div>
-
-  <!-- --- TikTok Connect (ditambahkan, tetap sesuai kode yang kamu kirim) --- -->
-  <div id="tiktokSection">
-    <div class="header">
-      <div class="logo">TikTok Connect</div>
-      <div style="color:var(--muted);font-size:13px">Tempel link TikTok lalu klik “Tampilkan Video”</div>
-    </div>
-    <div class="card">
-      <div class="controls">
-        <input id="urlInput" class="tiktok" type="text" placeholder="Tempel link TikTok (contoh: https://www.tiktok.com/@user/video/1234567890)" />
-        <button id="loadBtn" class="tiktok-btn">Tampilkan Video</button>
-      </div>
-      <div class="video">
-        <iframe id="tiktokFrame" src="" frameborder="0" allowfullscreen></iframe>
-      </div>
-      <div class="footer">Dikembangkan untuk menampilkan video TikTok langsung dari link.</div>
-    </div>
-  </div>
-
-  <script>
-    // --- KODE ASLI (tetap apa adanya) ---
-    const VALID_EMAIL = 'dyvillexz007@gmail.com';
-    const VALID_PASS = 'dyvillexz007';
-
-    document.getElementById('devBtn').onclick = () => window.open('https://github.com/Dyvillexz007','_blank');
-    document.getElementById('waBtn').onclick = () => window.open('https://wa.me/qr/4S2O5DIWX3GSP1','_blank');
-
-    document.getElementById('contactOwner').onclick = () => {
-      const message = 'Saya ingin login ke website anda apakah saya bisa menerima email dan sandi. Nanti saya akan kasi email dan sandi akses.';
-      const url = 'https://wa.me/?text=' + encodeURIComponent(message);
-      window.open(url, '_blank');
-    };
-
-    document.getElementById('otherBtn').onclick = () => alert('Developer @Dyvillexz007 masih dalam pengembangan. Fitur-fitur lainnya akan segera hadir ✨');
-
-    // Di sini: form login asli tetap ada, tapi kita gantikan redirect ke website2.html
-    // dengan menampilkan TikTok Connect yang sudah ditambahkan di bawah.
-    document.getElementById('loginForm').addEventListener('submit', e => {
-      e.preventDefault();
-      const user = document.getElementById('username').value.trim();
-      const pass = document.getElementById('password').value;
-
-      if (user.toLowerCase() === VALID_EMAIL.toLowerCase() && pass === VALID_PASS) {
-        const loading = document.getElementById('loading');
-        const loadingVideo = document.getElementById('loadingVideo');
-
-        // Matikan audio pertama
-        const bgMusic = document.getElementById('bg-music');
-        if (bgMusic) { bgMusic.pause(); bgMusic.currentTime = 0; }
-
-        // Jalankan audio kedua panjang / loop (jika ada)
-        let loadingAudio = document.getElementById('loadingAudio');
-        // jika ada kebutuhan audio panjang, biarkan src kosong dulu (sesuai aslinya)
-        // jika ingin pakai audio, set src di sini tanpa mengubah kode aslinya.
-        // loadingAudio.src = 'https://cdn.yupra.my.id/yp/audio2.mp3';
-        loadingAudio.loop = true;
-        loadingAudio.play().catch(() => {});
-
-        // Tampilkan loading video fullscreen
-        loading.classList.add('active');
-        loadingVideo.play().catch(() => loadingVideo.muted = true);
-
-        // Setelah 7 detik (sama seperti aslinya), jangan pindah ke website2.html.
-        // Sebagai tambahan: kita sembunyikan bagian awal dan tampilkan TikTok Connect.
-        setTimeout(()=> {
-          // sembunyikan loading dan elemen awal
-          loading.classList.remove('active');
-          const loginBox = document.getElementById('loginBox');
-          if (loginBox) loginBox.style.display = 'none';
-          const headerEl = document.querySelector('header');
-          if (headerEl) headerEl.style.display = 'none';
-          const buttonsEl = document.querySelector('.buttons');
-          if (buttonsEl) buttonsEl.style.display = 'none';
-
-          // tampilkan section TikTok Connect (ditambahkan)
-          const tiktok = document.getElementById('tiktokSection');
-          if (tiktok) tiktok.style.display = 'block';
-
-          // hentikan loading audio agar tidak tumpang tindih (opsional)
-          try { loadingAudio.pause(); loadingAudio.currentTime = 0; } catch(e){}
-
-        }, 7000);
-
-      } else {
-        alert('Email atau sandi salah. Silakan hubungi Owner jika belum punya akses.');
-      }
-    });
-
-    // --- TikTok Connect logic (ditambahkan tanpa mengubah kode sebelumnya) ---
-    const input = document.getElementById('urlInput');
-    const frame = document.getElementById('tiktokFrame');
-    const btn = document.getElementById('loadBtn');
-
-    btn.addEventListener('click', ()=>{
-      const url = input.value.trim();
-      if(!url.includes('tiktok.com')){
-        alert('Masukkan link TikTok yang valid.');
-        return;
-      }
-      frame.src = `https://www.tiktok.com/embed/${extractVideoId(url)}`;
-    });
-
-    function extractVideoId(url){
-      try{
-        const match = url.match(/video\/(\d+)/);
-        return match ? match[1] : '';
-      }catch(e){return '';}
-    }
-  </script>
-</body>
-</html>
